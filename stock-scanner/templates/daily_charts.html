@@ -1,0 +1,24 @@
+<html>
+<head>
+    <link rel="stylesheet" href='/static/style.css' />
+</head>
+
+<body>
+    <h1>Stock Screener</h1>
+
+    <p align="center"><a href=home><button class=grey style="height:50px;width:150px">Home Page</button></a></p>
+
+    <h2>Daily Charts</h2> 
+
+    {% include 'price_charts/price_chart_BTC-USD.html' %}
+
+    {% include 'price_charts/price_chart_ETH-USD.html' %}
+
+    {% include 'price_charts/price_chart_SPY.html' %}
+
+    {% include 'price_charts/price_chart_TSLA.html' %}
+    
+
+
+</body>
+</html>

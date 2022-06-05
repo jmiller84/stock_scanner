@@ -1,0 +1,36 @@
+<html>
+<head>
+    <link rel="stylesheet" href='/static/style.css' />
+</head>
+
+<body>
+    <h1>Stock Screener</h1>
+    <br>
+    <p align="center"><a href=home><button class=grey style="height:50px;width:150px">Home Page</button></a></p>
+    <br>
+    <h2>Demo Results</h2> 
+    <p align="center">
+    On some days the strategies may not return any buying opportunities. <br>
+    This page shows examples of charts from previous dates that have produced buying opportunities.<br>
+    </p>
+    <br>
+    <br>
+
+
+    <h3>Golden Cross Strategy</h3>
+    <h4>The golden cross strategy is triggered once the SMA50 crosses above the SMA200</h4>
+    <h2>Date: 2022-05-02</h2> 
+    {% include 'demo_results/demo_results_golden_cross.html' %}
+
+    <h3>Engulfing Strategy</h3>
+    <h4>The engulfing strategy is triggered once the chart returns 3 consecutive red candles folowed by a large green candle suggesting a possible price reversal</h4>
+    <h2>Date: 2022-06-05</h2> 
+    {% include 'demo_results/demo_results_engulfing.html' %}
+
+    <h3>Breakout Strategy</h3>
+    <h4>The breakout strategy is triggered when the chart has been trading within a tight range of 3% for the past 15 days and then closes above the range</h4>
+    <h2>Date: 2022-06-05</h2> 
+    {% include 'demo_results/demo_results_breaking_out.html' %}
+
+</body>
+</html>
