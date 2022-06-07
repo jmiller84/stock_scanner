@@ -17,12 +17,12 @@ The 3 Trading Strategies implemented by the program are:
 
 1. The Golden Cross Strategy
 
-The golden cross strategy is trigged when the 50 SMA line crosses above the 200 SMA line. This simple moving average crossover strategy is thouhgt to be a good indication that a stock is moving into an uptred.
+The golden cross strategy is trigged when the 50 SMA line crosses above the 200 SMA line. This simple moving average crossover strategy is thought to be a good indication that a stock is moving into an uptrend.
 
-2.  Engulfing Strategy 
+2. Engulfing Strategy
 
 The engulfing strategy is trigged when the chart displays 3 consecutive red candles followed by a large green candle showing a possible price reversal in the stock.
 
-3. Breakout Strategy 
+3. Breakout Strategy
 
-The breakout strategy is trigged after a period of price consolidation in which the stock has traded within a tight range of 3% or less from the past 15 candles and then the current candle closes above this range. Often stocks will see an explosive move upwards after an extended period of consilidation this strategy flags these occuracnes.
+The breakout strategy is trigged after a period of price consolidation in which the stock has traded within a tight range of 3% or less from the past 15 candles and then the current candle closes above this range. Often stocks will see an explosive move upwards after an extended period of consolidation this strategy flags these occurrences.
