@@ -26,3 +26,7 @@ The engulfing strategy is trigged when the chart displays 3 consecutive red cand
 3. Breakout Strategy
 
 The breakout strategy is trigged after a period of price consolidation in which the stock has traded within a tight range of 3% or less from the past 15 candles and then the current candle closes above this range. Often stocks will see an explosive move upwards after an extended period of consolidation this strategy flags these occurrences.
+
+Demo Page
+
+Depending on what the markets are doing, on some days the strategies may not trigger any trading opportunities. I have included a demo page on the flask application to show some examples of when the strategies have returned results.
